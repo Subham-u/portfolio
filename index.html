@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li class="header-link"><a href="#Home">Home</a></li>
+                    <li class="header-link"><a href="#about">About</a></li>
+                    <li class="header-link"><a href="#services">Interests</a></li>
+                    <li class="header-link"><a href="#portfolio">Portfolio</a></li>
+                    <li class="header-link"><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate Student</p>
+                <h1>Hi, I'm <span>Subham</span><br>Mahapatra from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi I'm Subham Mahapatra.
+                        Student at IIT Madras DataScience program and BTech at Rishihood University. 
+                        Interested in programming, art, drawing, entrepreneurship and sports.Growing up, 
+                        I have always been fascinated by the world of coding. The ability to create something
+                        from scratch using nothing but lines of code has always amazed me. 
+                        I have spent countless hours learning and practising different coding languages, 
+                        frameworks, and tools, and have come to realise that coding is not just a hobby for me,
+                        but a passion that I want to pursue as a career.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Product Management</span><br>Building products and businesses</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>No work experience!</span><br>I don't have actual work experience but I have worked on different kinds of projects in teams like UI/UX,web development and entrepreneurship.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>BTech(Computer Science) from Rishihood University</li>
+                            <li><span>2023-2027</span><br>BS(Data Science) from IIT Madras</li>
+                            <li><span>2022</span><br>Junior MBA from Clever Harvey</li>
+                            <li><span>2021-2023</span><br>12th from Sri Sathya Sai Higher Secondary School</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------Interests---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Interests</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-guitar"></i>
+                    <h2>Culture Active</h2>
+                    <p>"I am deeply passionate about cultural activities like guitar playing, art, drama, music, and crafts. 
+                        These enriching pursuits allow me to express myself creatively and connect with diverse forms of artistry."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Technology</h2>
+                    <p>"My keen interest in technology, particularly AI, Data Science, UI/UX, 3D design, and competitive programming, 
+                        drives me to explore innovative solutions and push the boundaries of what's possible in the digital realm."</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                    <h2>Sports Active</h2>
+                    <p>"Sports fuel my passion for both physical and mental challenges. Whether it's Karate, running, kabaddi, badminton, or esports, 
+                        each sport provides unique experiences that keep me energized and determined."</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">More About Me</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/DreamShaper_v7_image_for_Multimedia_2D_with_the_name_life_a_cl_0.jpg" alt="">
+                    <div class="layer">
+                        <h2>Clubs And Societies</h2>
+                        <p>"I am an active participant in various clubs and societies, each offering a unique platform for exploration and growth. 
+                            From the art club, where creativity thrives, to the environmental society, fostering a passion for sustainability, 
+                            I embrace diverse interests and forge lasting connections with like-minded individuals."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/DreamShaper_v7_Logo_for_Multimedia_2D_with_the_name_journey_a_0.jpg" alt="">
+                    <div class="layer">
+                        <h2>Photo Gallery</h2>
+                        <p>"My Gallery of Best Moments"! This collection showcases the cherished memories that have shaped my life.
+                            Each time I step into this space, I am filled with gratitude for the journey that has led me to this point, and a renewed sense of excitement for the moments yet to come.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/DreamShaper_v7_image_for_Multimedia_2D_with_the_name_subham_pr_1.jpg" alt="">
+                    <div class="layer">
+                        <h2>Projects And Contributions</h2>
+                        <p>"Project work fuels my enthusiasm for learning by encouraging collaboration, problem-solving, and practical application. 
+                            It empowers me to dive deep into subjects, fostering a deeper understanding of real-world concepts."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> subhammahapatra004@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 6371007969</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/art.house.2004"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/SubhamM99397863"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/_subham_004/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/subham-mahapatra-27380b205/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <br>
+        <p>@Subham Mahpatra<br>
+        <p>"Always in the process of Learning"
+        </p>
+        <br>
+    </footer>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzZ03SXRKxb84rHjAcRxx5ZkmGxTj4ZDFvYOVJUTDXXqt6AoLFb5pKfqwWPsoJuGKKM/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")  
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+                        msg.innerHTML = "Messages sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+        })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
